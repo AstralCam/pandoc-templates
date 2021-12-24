@@ -1,0 +1,22 @@
+format: beamer
+lang: es
+fontfamily: tgheros
+aspectratio: 169
+bibliography: references.bib
+header-includes: |
+  \usefonttheme[onlymath]{serif}
+  \setbeamerfont{frametitle}{series=\bfseries,size={\fontsize{28}{28}}}
+  \setbeamerfont{structure}{series=\bfseries,size={\fontsize{20}{20}}}
+  \setbeamercolor{normal text}{fg=black,bg=white}
+  \setbeamercolor{structure}{fg=black}
+  \setbeamercolor{alerted text}{fg=red!85!white}
+  \setbeamercolor{item projected}{use=item,fg=white,bg=item.fg!35}
+  \setbeamercolor*{palette primary}{use=structure,fg=structure.fg}
+  \setbeamercolor*{palette secondary}{use=structure,fg=structure.fg!95!white}
+  \setbeamercolor*{palette tertiary}{use=structure,fg=structure.fg!90!white}
+  \setbeamercolor*{palette quaternary}{use=structure,fg=structure.fg!95!white,bg=white!80}
+  \setbeamercolor*{frametitle}{fg=black}
+  \setbeamercolor*{framesubtitle}{fg=black}
+  \setbeamercolor*{block title}{parent=structure,bg=white}
+  \setbeamercolor*{block title alerted}{parent=alerted text,bg=white!15}
+  \setbeamercolor*{block title example}{parent=example text,bg=!15}

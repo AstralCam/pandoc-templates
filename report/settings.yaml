@@ -1,0 +1,9 @@
+docmentclass: IEEEtran
+classoptions:
+  - 10pt
+  - journal
+lang: es
+classoption: twocolumn
+geometry: margin=2.5cm
+fontfamily: libertine
+header-includes: |

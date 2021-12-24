@@ -1,0 +1,14 @@
+docmentclass: IEEEtran
+lang: es
+geometry: margin=2.5cm
+fontfamily: libertine
+bibliography: references.bib
+header-includes: |
+  \usepackage{fancyhdr}
+  \usepackage{titlesec}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \rhead{Fecha}
+  \chead{Nombre del curso: Conjunto de prolemas \#1}
+  \lhead{Nombre del estudiante}
+
